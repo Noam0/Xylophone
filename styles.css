@@ -1,0 +1,114 @@
+
+body{
+    display: flex;
+    background-color: #fffff7;
+    justify-content: center;
+    
+}
+h1{
+   position: relative;
+   left: 28%;
+}
+
+.xylopohne-container {
+   position: relative;
+    display: grid;
+    grid-template-columns: repeat(8, 100px); /* Adjusted width to 100px to make them almost touch */
+    grid-gap: 30px; /* Adjust the grid gap value to control space between grid items */
+    top: 100px;
+    
+}
+
+.note {
+    background-color: rgb(106, 187, 13);
+    width: 100px; /* This width will be overridden by the grid layout */
+    height: 300px;
+    margin: 0; /* Reset margin to ensure elements almost touch each other */
+    border-color: bisque;
+    border-radius: 15px;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.1); /* Example shadow values */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transition for transform and box-shadow */
+}
+
+.note:hover {
+    transform: scale(1.02); /* Increase the size slightly */
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.3); /* Enhance the box-shadow */
+}
+
+p {
+    font-size: 30px;
+    color: #ffffff; /* Almost white text color */
+    text-shadow: 1px 1px 2px #fff; /* White shadow with slight blur */
+}
+
+#C{
+    background-color:  red;
+}
+
+#D{
+    background-color:rgb(255, 136, 0);
+}
+
+#E{
+
+    background-color:rgb(255, 196, 0);
+}
+
+#F{
+    background-color:green;
+
+}
+
+#G{
+    background-color:lightblue;
+
+}
+
+#A{
+
+    background-color:blue;
+}
+
+#B{
+    background-color:violet;
+
+}
+
+#C2{
+    background-color:rgb(255, 161, 161)
+}
+
+#C:hover {
+    background-color: darkred; /* Example: Slightly darker red */
+}
+
+#D:hover {
+    background-color: rgb(214, 118, 0); /* Example: Slightly darker orange */
+}
+
+#E:hover {
+    background-color: darkgoldenrod; /* Example: Slightly darker yellow */
+}
+
+#F:hover {
+    background-color: darkgreen; /* Example: Slightly darker green */
+}
+
+#G:hover {
+    background-color: #8fbfd2; /* Example: Slightly darker lightblue */
+}
+
+#A:hover {
+    background-color: darkblue; /* Example: Slightly darker blue */
+}
+
+#B:hover {
+    background-color: darkviolet; /* Example: Slightly darker violet */
+}
+
+#C2:hover {
+    background-color: #f28181; /* Example: Slightly darker light red */
+}
